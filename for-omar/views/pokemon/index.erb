@@ -1,0 +1,13 @@
+
+	<h1>Index</h1>
+	<h2>We have <%= $pokemon.length %> Pokemon</h2>
+
+	<ul>
+		<% @pokemon.each do |pokemon|%>
+		<li>
+			<h3><a href="/users/<%= pokemon[:id] %>"><%= pokemon[:name]%></a></h3>
+			<p><%= pokemon[:description]%></p>
+		</li>
+		<% end %>
+	</ul>
+

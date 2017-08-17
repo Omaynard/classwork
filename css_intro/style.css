@@ -1,0 +1,25 @@
+               li{
+			   	font-weight: bold;
+			   	font-size: 30px;
+			   }
+			   p{
+			   	color:red;
+			   }
+			   body{
+			   	font-family: Arial;
+			   }
+			   .done{
+			   	color:green;
+			    text-decoration: line-through;
+			   }
+			   h1.urgent{
+			   	color:orange;
+			   }
+			   li.urgent{
+			   	color:red;
+			   }
+			   .nav{
+			   	list-style: none;
+			   	border: red dashed;
+			   	background-color: #284ede; 
+			   }

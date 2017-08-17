@@ -1,0 +1,15 @@
+#about-me{
+	background-color:green;
+	width:50%;
+	opacity:0.5;
+}
+#location{
+	height:500px;
+	width:400px;
+	background-color: pink;
+}
+#location h2 {
+	position:absolute;
+	bottom:100px;
+	left:200px;
+}

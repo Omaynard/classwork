@@ -1,0 +1,10 @@
+
+	
+	<h2><%= @pokemon[:name] %></h2>
+
+	<button><a href="/users/<%= @pokemon[:id] %>/edit">Edit</a></button>
+
+	<form action="/users/<%= @pokemon[:id] %>" method="POST">
+		<input type="hidden" name="_method" value="DELETE">
+		<input type="submit" value="delete">
+	</form>

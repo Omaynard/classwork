@@ -1,0 +1,13 @@
+<h1>Index</h1>
+ 
+<h2> We have <%= @count %> pokemon </h2> 
+
+
+<% @pokemon.each do |pokemon| %>
+	<div>
+	<h3><%= pokemon[:name]%> </h3>
+	<p><%= pokemon[:description]%> </p>
+	</div>
+	
+	
+<% end %>
